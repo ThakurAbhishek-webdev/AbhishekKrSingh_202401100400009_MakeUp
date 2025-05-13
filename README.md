@@ -1,1 +1,8 @@
-# AbhishekKrSingh_202401100400009_MakeUp
+In today's digital-first business environment, customer support plays a crucial role in maintaining client satisfaction and loyalty. As organizations receive increasing volumes of customer queries through various online platforms, the need for efficient support case handling becomes more critical. Manually categorizing these cases not only consumes time but is also prone to inconsistencies and delays.
+
+This project presents a machine learning-based approach to automatically classify support cases into predefined categories—namely, technical, billing, and general—using two primary features: message length and response time. These features were chosen based on their potential to indicate the urgency and complexity of a support request.
+A Logistic Regression model was employed due to its interpretability and effectiveness in classification problems. The workflow began with thorough data preprocessing, including missing value checks, label encoding of the categorical target variable (case_type), and feature scaling to normalize input variables. The model was then trained on 80% of the dataset and evaluated on the remaining 20% using key classification metrics such as accuracy, precision, recall, and F1 score. A confusion matrix heatmap was also generated to visualize the model's prediction performance across the different categories.
+![image](https://github.com/user-attachments/assets/9f67d402-debc-4d0b-ab1a-53dbdabf43dc)
+![image](https://github.com/user-attachments/assets/126fcdbc-94f0-4657-bf47-b3b47192acab)
+![image](https://github.com/user-attachments/assets/71f29665-c42d-42bc-b18a-0d5603f227fa)
+![image](https://github.com/user-attachments/assets/97df61fc-a668-4049-837a-8850cf721481)
